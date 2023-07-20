@@ -256,9 +256,43 @@ li>a {
 
 }
 
+.img-container {
+    position: relative;
+}
+
 .game-section-image-container img {
     width: 100%;
     margin-bottom: 1.5rem;
+
+}
+
+.overlay-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background-color: #0b0223a2;
+    border-radius: 0.7rem;
+    height: calc(100% - 1.625rem);
+    opacity: 0;
+}
+.img-container:hover .overlay-image {
+    opacity: 100%;
+}
+
+.overlay-image span {
+    font-size: 1.25rem;
+    font-weight: 600;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* game section second part starts */
@@ -468,10 +502,12 @@ footer {
 .amer {
     color: white !important;
 }
+
 .footer-sitemap {
     margin-top: 4.125rem;
     margin-bottom: 4.125rem;
 }
+
 .sitemap {
     text-decoration: none;
     color: #FFF;
@@ -483,9 +519,11 @@ footer {
 .footer-logos svg {
     margin: 0 1.25rem 0 1.25rem;
 }
+
 .footer-terms {
     margin: 4.625rem 0 1.75rem 0;
 }
+
 .footer-terms a {
     margin: 0 1.875rem 0 1.875rem;
     color: rgba(255, 255, 255, 0.60);
@@ -621,10 +659,12 @@ footer {
         width: 3rem;
         height: 3rem;
     }
+
     /* footer mobile styles */
     footer {
         height: auto;
     }
+
     .footer-sitemap {
         margin-top: 2.5rem;
         margin-bottom: 4rem;
@@ -633,9 +673,11 @@ footer {
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 1rem;
     }
+
     .sitemap {
         margin: 0;
     }
+
     .footer-logos {
         width: 30%;
         display: grid;
@@ -644,10 +686,12 @@ footer {
         align-items: center;
         grid-gap: 1rem;
     }
+
     .footer-logos svg {
         margin: 0;
         width: 80%;
     }
+
     .footer-terms {
         width: 32%;
         margin: 4.3rem 0;
@@ -655,15 +699,17 @@ footer {
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 1rem;
     }
+
     .footer-terms a {
-        margin: 0 ;
+        margin: 0;
     }
-    
-    .footer-copyright  {
-       margin-bottom: 5rem;
-       width: 30%;
-       text-align: center;
+
+    .footer-copyright {
+        margin-bottom: 5rem;
+        width: 30%;
+        text-align: center;
     }
+
     .footer-title {
         width: 35%;
     }
