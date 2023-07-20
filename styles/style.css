@@ -189,7 +189,7 @@ li>a {
     text-transform: uppercase;
 }
 
-.we-are-gamer-slogan h3{
+.we-are-gamer-slogan h3 {
     font-size: 1.5rem;
     font-weight: 500;
     margin-bottom: 0.5rem;
@@ -198,7 +198,7 @@ li>a {
 .we-are-gamer-slogan {
     margin: 3.75rem 0 10rem 0;
     color: #534C64;
-    font-size: 1.5re,;
+    font-size: 1.5re, ;
     font-weight: 700;
     line-height: 2.8125rem;
 }
@@ -509,8 +509,67 @@ li>a {
         background-size: 100% 42%;
         background-position: left 0 bottom 0;
     }
+
     /* Turning on we are gamer section for mobile view */
     .we-are-gamer {
         display: block;
     }
+
+    /* game seciton container mobile view */
+    .game-section-image-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+    }
+
+    .game-section-image-container figure {
+        width: 65%;
+        margin: 0.5rem auto;
+    }
+
+    /* game section second part */
+    .game-section-second-part {
+        flex-direction: column;
+        gap: 0;
+    }
+    .game-section-second-part-left-side, 
+    .game-section-third-part-right-side {
+        text-align: center;
+    }
+    .game-secion-second-part-right-side,
+    .game-secion-third-part-left-side {
+        width: 80%;
+    }
+    .game-section-second-part-title,
+    .game-section-third-part-title{
+        margin-bottom: 2.5rem;
+    }
+    .game-section-second-part-para,
+    .game-section-third-part-para{
+        margin-bottom: 3rem;
+    }
+    .game-section-third-part {
+        flex-direction: column;
+        gap:0;
+    }
+    /* career section mobile view */
+    .career {
+        display: none;
+    }
+    /* game type section mobile view */
+    .game-type-btn {
+        gap: 0.5rem;
+        padding: 0.4rem;;
+        margin: 0.5rem;
+    }
+    
+    .game-type-btn span {
+        font-size: 1rem;
+    }
+    
+    .game-type-btn img {
+        width: 3rem;
+        height: 3rem;
+    }
+    
 }
