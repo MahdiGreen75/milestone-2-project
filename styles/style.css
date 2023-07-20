@@ -455,7 +455,50 @@ li>a {
     height: 26.7rem;
 }
 
+/* fooer section styles */
+footer {
+    height: 39rem;
+    background: #0B0223;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.amer {
+    color: white !important;
+}
+.footer-sitemap {
+    margin-top: 4.125rem;
+    margin-bottom: 4.125rem;
+}
+.sitemap {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin: 0 1.875rem 0 1.875rem;
+}
+
+.footer-logos svg {
+    margin: 0 1.25rem 0 1.25rem;
+}
+.footer-terms {
+    margin: 4.625rem 0 1.75rem 0;
+}
+.footer-terms a {
+    margin: 0 1.875rem 0 1.875rem;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.footer-copyright p {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
+}
 
 /* Media query for mobile device */
 
@@ -532,44 +575,97 @@ li>a {
         flex-direction: column;
         gap: 0;
     }
-    .game-section-second-part-left-side, 
+
+    .game-section-second-part-left-side,
     .game-section-third-part-right-side {
         text-align: center;
     }
+
     .game-secion-second-part-right-side,
     .game-secion-third-part-left-side {
         width: 80%;
     }
+
     .game-section-second-part-title,
-    .game-section-third-part-title{
+    .game-section-third-part-title {
         margin-bottom: 2.5rem;
     }
+
     .game-section-second-part-para,
-    .game-section-third-part-para{
+    .game-section-third-part-para {
         margin-bottom: 3rem;
     }
+
     .game-section-third-part {
         flex-direction: column;
-        gap:0;
+        gap: 0;
     }
+
     /* career section mobile view */
     .career {
         display: none;
     }
+
     /* game type section mobile view */
     .game-type-btn {
         gap: 0.5rem;
-        padding: 0.4rem;;
+        padding: 0.4rem;
         margin: 0.5rem;
     }
-    
+
     .game-type-btn span {
         font-size: 1rem;
     }
-    
+
     .game-type-btn img {
         width: 3rem;
         height: 3rem;
     }
+    /* footer mobile styles */
+    footer {
+        height: auto;
+    }
+    .footer-sitemap {
+        margin-top: 2.5rem;
+        margin-bottom: 4rem;
+        width: 45%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1rem;
+    }
+    .sitemap {
+        margin: 0;
+    }
+    .footer-logos {
+        width: 30%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        align-items: center;
+        grid-gap: 1rem;
+    }
+    .footer-logos svg {
+        margin: 0;
+        width: 80%;
+    }
+    .footer-terms {
+        width: 32%;
+        margin: 4.3rem 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1rem;
+    }
+    .footer-terms a {
+        margin: 0 ;
+    }
     
+    .footer-copyright  {
+       margin-bottom: 5rem;
+       width: 30%;
+       text-align: center;
+    }
+    .footer-title {
+        width: 35%;
+    }
+
 }
