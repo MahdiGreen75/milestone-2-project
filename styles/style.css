@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    border: 1px solid rgba(255, 0, 0, 0.185);
+    border: 1px solid rgba(255, 0, 0, 0.274);
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -147,6 +147,62 @@ li>a {
     margin-left: 1.5rem;
 }
 
+/* we are gamer for mobile device */
+.we-are-gamer {
+    text-align: center;
+    display: none;
+    /* turned off for desktop view */
+    /* will be turned on mobile view */
+}
+
+.we-are-gamer img {
+    width: 100%;
+    margin: 2.25rem 0 3.75rem 0;
+}
+
+.we-are-gamer-title {
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.we-are-gamer-para {
+    color: #534C64;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+    margin: 2rem auto 1.5rem auto;
+    width: 30rem;
+    /* 166.667% */
+}
+
+.we-are-gamer-btn {
+    padding: 1.3125rem 2.5rem;
+    border-radius: 3rem;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.we-are-gamer-slogan h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.we-are-gamer-slogan {
+    margin: 3.75rem 0 10rem 0;
+    color: #534C64;
+    font-size: 1.5re,;
+    font-weight: 700;
+    line-height: 2.8125rem;
+}
+
 /* game section styles */
 .game-section-container {
     display: flex;
@@ -157,9 +213,9 @@ li>a {
 
 .game-section-title {
     color: #0B0223;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 700;
-    margin: 120px 0 16px 0;
+    margin: 7.5rem 0 1rem 0;
 }
 
 .funny-videos {
@@ -167,24 +223,24 @@ li>a {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 700;
 }
 
 .game-section-para {
     color: #534C64;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 1.875rem;
     /* 166.667% */
     margin-bottom: 3rem;
 }
 
 .game-section-image-container figcaption {
     color: #534C64;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
-    line-height: 30px;
+    line-height: 1.875rem;
     /* 150% */
 }
 
@@ -195,39 +251,39 @@ li>a {
 }
 
 .game-section-image-container figure {
-    border-radius: 15px;
+    border-radius: 0.9rem;
     width: 22.5%;
 
 }
 
 .game-section-image-container img {
     width: 100%;
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
 }
 
 /* game section second part starts */
 
 .game-section-second-part {
-    margin-top: 120px;
+    margin-top: 7.5rem;
     display: flex;
     justify-content: flex-end;
-    gap: 120px;
+    gap: 7.5rem;
     align-items: center;
 
 }
 
 .game-section-second-part-left-side {
     text-align: right;
-    width: 353px;
+    width: 22rem;
 }
 
 .game-section-second-part-title,
 .play-instant,
 .game-section-third-part-title {
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 700;
     color: #0B0223;
-    line-height: 60px;
+    line-height: 3.75rem;
 }
 
 .play-instant,
@@ -241,14 +297,14 @@ li>a {
 .game-section-second-part-para,
 .game-section-third-part-para {
     color: #534C64;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 1.875rem;
     /* 166.667% */
 }
 
-.game-secion-second-part-right-side{
-    padding: 0 0 30px 65px;
+.game-secion-second-part-right-side {
+    padding: 0 0 1.875rem 4.0625rem;
     position: relative;
     width: 50%;
 }
@@ -266,11 +322,11 @@ li>a {
 
 /* game section third part starts */
 .game-section-third-part {
-    margin-top: 120px;
+    margin-top: 7.5rem;
     display: flex;
     justify-content: flex-end;
-    flex-direction:row-reverse;
-    gap: 120px;
+    flex-direction: row-reverse;
+    gap: 7.5rem;
     align-items: center;
 }
 
@@ -280,21 +336,126 @@ li>a {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 .game-section-third-part-overlay {
     position: absolute;
     width: 40%;
     bottom: 0;
     right: 0;
 }
-.game-secion-third-part-left-side{
-    padding: 0 65px 30px 0;
+
+.game-secion-third-part-left-side {
+    padding: 0 4.0625rem 1.875rem 0;
     position: relative;
     width: 50%;
 }
+
 .game-section-third-part-right-side {
     text-align: left;
-    width: 353px;
+    width: 22rem;
 }
+
+/* career section styel herer */
+.career {
+    margin-top: 7.5rem;
+    background: url("../images/Group\ 65.png"), linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    height: 51rem;
+    background-size: 50% 100%, 100% 100%;
+    background-position: right -3.5rem top 0, right 0 bottom 0;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    width: auto;
+}
+
+.career-container {
+    height: 51rem;
+}
+
+.career-left-part-flex-start {
+    height: 51rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.career-left-part {
+    width: 42.5rem;
+}
+
+.career-title {
+    margin-bottom: 1.5rem;
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 3.75rem;
+    /* 125% */
+}
+
+.career-para {
+    color: #FFF;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+    margin-bottom: 2rem;
+    /* 166.667% */
+}
+
+.career-box {
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 2.5rem;
+    /* 200% */
+}
+
+.career-box p {
+    display: flex;
+    justify-content: space-between;
+}
+
+.see-all-positions {
+    color: #FF42A5;
+}
+
+/* Game type section styles */
+.game-type {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.game-type-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.625rem;
+    border-radius: 3.125rem;
+    background: #FFF;
+    margin: 0.5rem;
+}
+
+.game-type-btn span {
+    color: #0B0223;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.game-type-btn img {
+    width: 3.125rem;
+    height: 3.125rem;
+}
+
+.game-type-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 26.7rem;
+}
+
+
 
 /* Media query for mobile device */
 
@@ -347,5 +508,9 @@ li>a {
         background-repeat: no-repeat;
         background-size: 100% 42%;
         background-position: left 0 bottom 0;
+    }
+    /* Turning on we are gamer section for mobile view */
+    .we-are-gamer {
+        display: block;
     }
 }
